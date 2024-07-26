@@ -1,0 +1,50 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    font-size: 22px;
+    background-color: #f0f8ff;
+    /* Light blue background */
+}
+
+.search-box {
+    height: 10vh;
+    margin-bottom: 20px;
+}
+
+.search-box>input,
+button {
+    box-sizing: border-box;
+    height: 35px;
+    /* Increased height */
+    font-size: 20px;
+    border: 1px solid #ccc;
+    /* Light border */
+    border-radius: 5px;
+    /* Rounded corners */
+    margin: 5px;
+    padding: 5px;
+    /* Padding inside input and button */
+}
+
+.search-box>button {
+    background-color: #a881af;
+    /* Green background */
+    color: white;
+    /* White text */
+    border: none;
+    /* Remove border */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s;
+    /* Smooth transition */
+}
+
+.search-box>button:hover {
+    background-color: #80669d;
+    /* Darker green on hover */
+}
